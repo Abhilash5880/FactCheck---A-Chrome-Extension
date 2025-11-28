@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "AI Fact Checker",
+  "version": "1.0",
+  "description": "Verify the reliability of selected text using Google's Gemini AI and Search Grounding.",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://localhost:3000"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "AI Fact Checker"
+  }
+}
