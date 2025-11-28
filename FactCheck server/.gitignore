@@ -1,0 +1,2 @@
+# Ignore the .env.local file in the FactCheck server folder
+FactCheck server/.env.local
